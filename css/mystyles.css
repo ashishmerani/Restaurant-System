@@ -1,0 +1,32 @@
+body{
+    padding50px 0px 0px 0px;
+    z-index0;
+}
+
+.navbar-inverse {
+     background #303F9F;
+}
+
+.navbar-inverse .navbar-nav  .active  a,
+.navbar-inverse .navbar-nav  .active  ahover,
+.navbar-inverse .navbar-nav  .active  afocus {
+    color #fff;
+    background #1A237E;
+}
+
+.navbar-inverse .navbar-nav  .open  a,
+ .navbar-inverse .navbar-nav  .open  ahover,
+ .navbar-inverse .navbar-nav  .open  afocus {
+    color #fff;
+    background #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu li a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color #303F9F;
+    color#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu li ahover {
+    color#000000;
+}
