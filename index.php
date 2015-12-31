@@ -47,7 +47,9 @@
                       <span class="glyphicon glyphicon-home"
                        aria-hidden="true"></span> Home</a>
                      </li>
-                    <li><a href="#">About</a></li>
+                     <li><a href="aboutus.html">
+                         <span class="glyphicon glyphicon-info-sign"
+                          aria-hidden="true"></span> About</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                          role="button" aria-haspopup="true" aria-expanded="false">
@@ -100,7 +102,7 @@
         </div>
 
 
-    
+
             <div class="row row-context">
               <div class="col-xs-12 col-sm-3">
                 <p style="padding:20px;"></p>
@@ -174,7 +176,7 @@
                 </div>
                 <div class="col-xs-12">
                     <p style="padding:10px;"></p>
-                    <p align=center>© Copyright 2015 Ristorante Con Fusion</p>
+                    <p align=center>ï¿½ Copyright 2015 Ristorante Con Fusion</p>
                 </div>
             </div>
         </div>
