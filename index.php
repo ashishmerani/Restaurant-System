@@ -43,7 +43,7 @@
 
 
                   <li class="active">
-                    <a href="#">
+                    <a href="index.html">
                       <span class="glyphicon glyphicon-home"
                        aria-hidden="true"></span> Home</a>
                      </li>
@@ -65,7 +65,8 @@
                             <li><a href="#">Weekend Brunch</a></li>
                         </ul>
                      </li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contactus.html"><span class="glyphicon glyphicon-envelope"
+                        aria-hidden="true"></span> Contact</a></li>
                 </ul>
                 </div>
             </div>
