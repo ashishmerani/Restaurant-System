@@ -191,7 +191,7 @@
               <div class="radio col-sm-2">
   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-    Option one is this and that&mdash;be sure to include why it's great
+    Option 
   </label>
 </div>
                 <label for="firstname" class="col-sm-2 control-label">First Name</label>                        <div class="col-sm-10">
