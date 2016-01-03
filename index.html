@@ -68,7 +68,16 @@
                     <li><a href="contactus.html"><span class="glyphicon glyphicon-envelope"
                         aria-hidden="true"></span> Contact</a></li>
                 </ul>
+                <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                    <input type="password" class="form-control" placeholder="Password">
+                     <label><input type="checkbox"> <span style="color:white">Remember me</span>/label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
                 </div>
+
             </div>
         </nav>
 
@@ -86,6 +95,11 @@
                 <div class="col-xs-12 col-sm-2">
                     <p style="padding:20px;"></p>
                     <img src="img/logo.png" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                  <p style="padding:40px;"></p>
+                  <button type="button" class="btn btn-warning">Reserve Table</button></button>
+
                 </div>
             </div>
         </div>
@@ -106,7 +120,7 @@
                   </a>
               </div>
               <div class="media-body">
-                  <h2 class="media-heading">Uthappizza</h2>
+                  <h2 class="media-heading">Uthappizza <span class="label label-danger">Hot</span>  <span class="badge">$4.99</span></h2>
                   <p>A unique combination of Indian Uthappam (pancake) and
                     Italian pizza, topped with Cerignola olives, ripe vine
                     cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -127,8 +141,8 @@
             </div>
             <div class="col-xs-12 col-sm-9">
                 <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-                <p><a href="#">More &raquo;</a></p>
+                  <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                                  <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
             </div>
         </div>
         <hr>
@@ -163,7 +177,91 @@
     </div>
     <hr>
     </hr>
+<div class="container">
+    <div class="row row-context">
+        <div class="col-xs-12 col-sm-3">
+            <p style="padding:20px;"></p>
+            <h2 align=center><b>Reserve a Table</b></h2>
+        </div>
+        <div class="col-xs-12 col-sm-9">
 
+           <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <b> Number of Guests </b>
+              <div class="radio col-sm-2">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+                <label for="firstname" class="col-sm-2 control-label">First Name</label>                        <div class="col-sm-10">
+                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter First Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastname" class="col-sm-2 control-label">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter Last Name">
+                </div>
+            </div>
+            <div class="form-group">
+                                 <label for="telnum" class="col-xs-12 col-sm-2 control-label">Contact Tel.</label>
+                                 <div class="col-xs-5 col-sm-4 col-md-3">
+                                     <div class="input-group">
+                                         <div class="input-group-addon">(</div>
+                                             <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                                         <div class="input-group-addon">)</div>
+                                     </div>
+                                 </div>
+                                 <div class="col-xs-7 col-sm-6 col-md-7">
+                                             <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                                 </div>
+                             </div>
+                             <div class="form-group">
+                                 <label for="emailid" class="col-sm-2 control-label">Email</label>
+                                 <div class="col-sm-10">
+                                     <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                                 </div>
+                             </div>
+                             <div class="form-group">
+                   <div class="checkbox col-sm-5 col-sm-offset-2">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" name="approve" value="">
+                            <strong>May we contact you?</strong>
+                        </label>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <select class="form-control">
+                            <option>Tel.</option>
+                            <option>Email</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                     <label for="feedback" class="col-sm-2 control-label">Your Feedback</label>
+                     <div class="col-sm-10">
+                         <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                     </div>
+                 </div>
+                 <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">Send Feedback</button>
+                    </div>
+                </div>
+
+           </form>
+
+                  </div>
+          <div class="col-xs-12 col-sm-9">
+
+         <b>  Date and Time </b>
+
+
+        </div>
+    </div>
+</div>
+    <hr>
+    </hr>
     <footer class="row-footer">
         <div class ="container">
             <div class = "row">
